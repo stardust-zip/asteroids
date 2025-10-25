@@ -1,1 +1,7 @@
 .direnv
+__pycache__
+venv
+.venv/
+env/
+.env
+.uv/
