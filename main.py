@@ -47,7 +47,7 @@ def main():
         for asteroid in asteroids:
             for shot in shots:
                 if asteroid.collisions(shot):
-                    asteroid.kill()
+                    asteroid.split()
                     shot.kill()
 
         print(len(shots))
