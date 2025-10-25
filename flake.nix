@@ -76,19 +76,7 @@
               venvShellHook
               pip
               python-lsp-server
-
-              fastapi
-              uvicorn
-
-              httpx
-              sqlmodel
-
-              sqlalchemy
-              python-dotenv
-              python-jose
-              alembic
-              pydantic
-              pydantic-settings
+              uv
 
               # Add whatever else you'd like here.
               # pkgs.basedpyright
