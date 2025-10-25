@@ -85,6 +85,8 @@
               # or
               python.pkgs.black
               pkgs.ruff
+
+              pygame
               # or
               # python.pkgs.ruff
 
