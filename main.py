@@ -8,6 +8,9 @@ def main():
 
     pygame.init()
 
+    clock = pygame.time.Clock()
+    dt = 0  # Delta time
+
     print(f"Starting Asteroids with pygame version: {pygame.version.ver}")
 
     print(f"Screen width: {SCREEN_WIDTH}")
@@ -22,6 +25,8 @@ def main():
                 return
         screen.fill(color="black")
         pygame.display.flip()
+
+        dt = clock.tick(60) / 1000  # Convert from miliseconds to seconds
 
 
 if __name__ == "__main__":
