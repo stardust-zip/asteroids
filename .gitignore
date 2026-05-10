@@ -1,3 +1,4 @@
-direnv/
 p-doc.md
 game_state.jsonl
+.python-version
+.direnv
