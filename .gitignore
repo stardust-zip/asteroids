@@ -1,4 +1,5 @@
 p-doc.md
 game_state.jsonl
+game_events.jsonl
 .python-version
 .direnv
