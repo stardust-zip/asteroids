@@ -45,7 +45,7 @@ NIX_CC='/nix/store/qd70v8g0561vm8m33kmnp79z00cgyi5n-gcc-wrapper-15.2.0'
 export NIX_CC
 NIX_CC_WRAPPER_TARGET_HOST_x86_64_unknown_linux_gnu='1'
 export NIX_CC_WRAPPER_TARGET_HOST_x86_64_unknown_linux_gnu
-NIX_CFLAGS_COMPILE=' -frandom-seed=9p30xl8qzf -isystem /nix/store/0r6k8xa2kgqyp3r4v2w7yrb80ma2iawm-python3-3.13.12/include -isystem /nix/store/0rn2xh3zciwdr8sjg79ir79dbr6lnmfb-gnumake-4.4.1/include -isystem /nix/store/0r6k8xa2kgqyp3r4v2w7yrb80ma2iawm-python3-3.13.12/include -isystem /nix/store/0rn2xh3zciwdr8sjg79ir79dbr6lnmfb-gnumake-4.4.1/include'
+NIX_CFLAGS_COMPILE=' -frandom-seed=ghxyl4w92f -isystem /nix/store/0r6k8xa2kgqyp3r4v2w7yrb80ma2iawm-python3-3.13.12/include -isystem /nix/store/0rn2xh3zciwdr8sjg79ir79dbr6lnmfb-gnumake-4.4.1/include -isystem /nix/store/0r6k8xa2kgqyp3r4v2w7yrb80ma2iawm-python3-3.13.12/include -isystem /nix/store/0rn2xh3zciwdr8sjg79ir79dbr6lnmfb-gnumake-4.4.1/include'
 export NIX_CFLAGS_COMPILE
 NIX_ENFORCE_NO_NATIVE='1'
 export NIX_ENFORCE_NO_NATIVE
@@ -55,7 +55,7 @@ NIX_LD='/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/ld-linux-x
 export NIX_LD
 NIX_LDFLAGS='-rpath /home/nguyenhieu/projects/github/stardust-zip/asteroids/outputs/out/lib  -L/nix/store/0r6k8xa2kgqyp3r4v2w7yrb80ma2iawm-python3-3.13.12/lib -L/nix/store/0r6k8xa2kgqyp3r4v2w7yrb80ma2iawm-python3-3.13.12/lib'
 export NIX_LDFLAGS
-NIX_LD_LIBRARY_PATH='/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib:/nix/store/ixhlv41i2wpl84xgjcks061dz4yssbg3-zlib-1.3.2/lib'
+NIX_LD_LIBRARY_PATH='/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib:/nix/store/ixhlv41i2wpl84xgjcks061dz4yssbg3-zlib-1.3.2/lib:/nix/store/fdqacryg2w9kiwb94c9rzfsyff4im8xj-libglvnd-1.7.0/lib:/nix/store/0c0xdj7xpilqfy2p33l1jm407f01652w-libxkbcommon-1.13.1/lib:/nix/store/ysbyz6zabjcg078ssp4l58mhgbr57pbz-wayland-1.24.0/lib:/nix/store/5m91jqg1526jzsahrgmd37k4ml3nc5l4-libx11-1.8.13/lib:/nix/store/917cm887c5gz2c56ihys80mf2g8fkjj0-libxcursor-1.2.3/lib:/nix/store/n1ykqk7ibmp4h5r4x5fng4cn9wjlgj9y-libxext-1.3.7/lib:/nix/store/wnl69g3p3cb415xxxz09hfvrj624fg18-libxi-1.8.2/lib:/nix/store/lf8zr1p4x09ws3kk9szzs48ixivw084s-libxinerama-1.1.6/lib:/nix/store/8crm1m4x7xqq7nsp9p1war9scj2pjry3-libxrandr-1.5.5/lib:/nix/store/lc42rw40vzm0cyimq5b0d3srbx89abh9-libxscrnsaver-1.2.5/lib:/nix/store/3innqpmxwvmr2vc8h51g47aqdl6zj2b4-alsa-lib-1.2.15.3/lib:/nix/store/4sz0svgk1cgjpglx5rjn570k5crcnq64-pulseaudio-17.0/lib'
 export NIX_LD_LIBRARY_PATH
 NIX_NO_SELF_RPATH='1'
 NIX_STORE='/nix/store'

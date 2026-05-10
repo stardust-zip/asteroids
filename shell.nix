@@ -9,6 +9,20 @@ pkgs.mkShell {
   NIX_LD_LIBRARY_PATH = lib.makeLibraryPath [
     stdenv.cc.cc # libstdc++
     zlib # libz (for numpy)
+
+    # --- Graphics & Audio for Pygame/SDL2 ---
+    libGL
+    libxkbcommon
+    wayland
+    xorg.libX11
+    xorg.libXcursor
+    xorg.libXext
+    xorg.libXi
+    xorg.libXinerama
+    xorg.libXrandr
+    xorg.libXScrnSaver
+    alsa-lib
+    pulseaudio
   ];
 
   NIX_LD = lib.fileContents "${stdenv.cc}/nix-support/dynamic-linker";
